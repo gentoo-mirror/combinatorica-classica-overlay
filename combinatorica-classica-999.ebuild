@@ -3,7 +3,7 @@ EAPI=7
  
 DESCRIPTION="Combinatorica classica"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica/"
-SRC_URI="http://localhost/combinatorica-classica-999.tar.gz"
+SRC_URI="https://gitflic.ru/project/dcc0/combinatorica-classica/release/ca865ac3-cd64-4f45-9085-7c2c17c11f6a/9c32e794-5e8c-4d21-b128-fb818845d513/download/combinatorica-classica-999.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
