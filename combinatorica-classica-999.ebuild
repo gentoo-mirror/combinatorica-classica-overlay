@@ -3,7 +3,7 @@ EAPI=7
  
 DESCRIPTION="Combinatorica classica"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica/"
-SRC_URI="http://localhost/${PN}.tar.gz"
+SRC_URI=" https://gitflic.ru/project/dcc0/combinatorica-classica-overlay/blob/raw?file=combinatorica-classica-999.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -18,7 +18,8 @@ BDEPEND=""
 
 src_unpack() {
 	#Обработка архива с некорректным именем 
-tar -C /tmp -xvf /var/calculate/distfiles/combinatorica-classica.tar.gz
+cd /var/cache/distfiles/
+tar -C /tmp/ -xvf /var/calculate/tmp/portage/app-misc/combinatorica-classica-999/distdir/raw?file=combinatorica-classica-999.tar.gz
 	  ### Строка для Gentoo  
 #	  mv /var/cache/distfiles/raw?file=combinatorica-classica-999.tar.gz /var/calculate/distfiles/combinatorica-classica-999.tar.gz
 #	  tar -C /tmp -xvf /var/cache//distfiles/combinatorica-classica-999.tar.gz
