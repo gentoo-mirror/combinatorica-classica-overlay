@@ -5,29 +5,24 @@ HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/combinatorica-classica.git"
 inherit autotools git-r3 bash-completion-r1
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
-
+ 
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
-echo -e "Attention! This program cannot be installed automatically!";
-elog -e "\e[32;1m You can find the program here:  /tmp/combinatorica-classica \e[0m";
-elog "Не забудьте перенести программу в каталог /user/local/bin/ или в каталог /home/user";
-elog "Don't forget to copy the program to your home directory!";
-elog "TO INSTALL THE PROGRAM: run ./install.sh";
-elog "Чтобы скомпилировать алгоритмы, запустите  ./install.sh";
-elog "(Дополнительно) скомпилированные программы находятся в /tmp/combinatorica-classica/bin/";
 
-
+elog "Исполняемые файлы программ Вы найдёте в /usr/local/bin/";
+elog "Файлы имееют расширение .comb";
+elog "To install the program manually: run ./install.sh";    
+elog "Чтобы скомпилировать алгоритмы вручную, запустите:  ./install.sh";
+elog "Благодарим за использование пакета Combinatorica Classica";
 
 src_compile() {
-	chmod +x ./install.sh
+	chmod +x ./install.sh 
 	./install.sh
-	mkdir /tmp/combinatorica-classica
-	cp -r bin/ /tmp/combinatorica-classica
 }
 
 
