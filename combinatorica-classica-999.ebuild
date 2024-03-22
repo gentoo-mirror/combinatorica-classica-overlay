@@ -3,7 +3,7 @@ EAPI=7
  
 DESCRIPTION="Combinatorica classica"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica/"
-SRC_URI=" https://gitflic.ru/project/dcc0/combinatorica-classica-overlay/blob/raw?file=combinatorica-classica-999.tar.gz"
+EGIT_REPO_URI="https://anongit.gentoo.org/git/proj/eselect.git"
 
 LICENSE="GPL-2"
 SLOT="0"
