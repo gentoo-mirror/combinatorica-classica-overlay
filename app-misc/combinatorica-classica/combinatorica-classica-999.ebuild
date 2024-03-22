@@ -2,7 +2,7 @@
 EAPI=7
 
 DESCRIPTION="Combinatorica classica"
-HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica/"
+HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/combinatorica-classica.git"
 inherit autotools git-r3 bash-completion-r1
