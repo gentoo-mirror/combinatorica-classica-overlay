@@ -13,19 +13,15 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
-
 elog "Исполняемые файлы программ Вы найдёте в /usr/local/bin/";
 elog "Файлы имееют расширение .comb";
 elog "To install the program manually: run ./install.sh";    
 elog "Чтобы скомпилировать алгоритмы вручную, запустите:  ./install.sh";
 elog "Благодарим за использование пакета Combinatorica Classica";
-
 src_compile() {
-  chmod +x ./install.sh 
+  chmod +x ./install.sh
   ./install.sh
 }
-
-
 src_install() {
   into /usr/local/
   dobin bin/*
