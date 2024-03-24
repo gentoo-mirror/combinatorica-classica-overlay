@@ -1,6 +1,6 @@
 #This is a Gentoo ebuild to merge it (if you like emerge command)
 EAPI=7
-DESCRIPTION="Combinatorica classica"
+DESCRIPTION="Combinatorica classica - пакет классических переборных алгоритмов (итеративных), написаных на языке C(89)."
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/combinatorica-classica.git"
