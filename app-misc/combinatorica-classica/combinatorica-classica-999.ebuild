@@ -4,7 +4,7 @@ DESCRIPTION="Combinatorica classica - пакет классических пер
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/combinatorica-classica.git"
-LICENSE="PD"
+LICENSE="Public domain"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
