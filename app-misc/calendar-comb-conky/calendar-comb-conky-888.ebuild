@@ -1,6 +1,6 @@
 #This is a Gentoo ebuild to merge it (if you like emerge command)
 EAPI=7
-DESCRIPTION="Календарь для Conky  с подсветкой даты и выходных"
+DESCRIPTION="Календарь для Conky с подсветкой даты и выходных"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/kalendar-dlya-conky.git"
