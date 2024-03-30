@@ -14,9 +14,12 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 elog "Исполняемые файлы программ Вы найдёте в /usr/local/bin/";
-elog "Файлы имееют расширение .comb";
+elog "Файлы имееют расширение .comb и .sh";
 elog "To install the program manually: run ./install.sh";
 elog "Чтобы скомпилировать алгоритмы вручную, запустите:  ./install.sh";
+elog "Запустить календарь:  calendar.sh";
+elog "Запустить календарь без форматирования (только числа):  calendar.comb";
+elog "Страница руководства:  calendar.comb";
 
 src_compile() {
   chmod +x ./calendar.sh  	
