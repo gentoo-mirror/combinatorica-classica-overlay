@@ -17,9 +17,9 @@ elog "Исполняемые файлы программ Вы найдёте в 
 elog "Файлы имееют расширение .comb и .sh";
 elog "To install the program manually: run ./install.sh";
 elog "Чтобы скомпилировать алгоритмы вручную, запустите:  ./install.sh";
-elog "Запустить календарь:  calendar.sh";
-elog "Запустить календарь без форматирования (только числа):  calendar.comb";
-elog "Страница руководства:  calendar.comb";
+elog "Данная программа корректно работает только с  Conky.";
+elog "Для работы с календарем из терминала воспользуйтесь пакетом calendar-comb";
+elog "Страница руководства:  calendar_conky.comb";
 
 src_compile() {
   chmod +x ./calendar.sh
