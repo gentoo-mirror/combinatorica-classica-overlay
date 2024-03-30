@@ -24,6 +24,7 @@ src_compile() {
   ./install.sh
 }
 src_install() {
+  doman *.8
   into /usr/local/
   dobin calendar.sh
   dobin calendar.comb
