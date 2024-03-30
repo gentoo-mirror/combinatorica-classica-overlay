@@ -22,13 +22,13 @@ elog "Для работы с календарем из терминала вос
 elog "Страница руководства:  calendar_conky.comb";
 
 src_compile() {
-  chmod +x ./calendar.sh
+  chmod +x ./calendar_conky.sh
   chmod +x ./install.sh
   ./install.sh
 }
 src_install() {
   doman *.8
   into /usr/local/
-  dobin calendar.sh
-  dobin calendar.comb
+  dobin calendar_conky.sh
+  dobin calendar_conky.comb
 }
