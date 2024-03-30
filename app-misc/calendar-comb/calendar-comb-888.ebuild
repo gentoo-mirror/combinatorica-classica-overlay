@@ -19,10 +19,12 @@ elog "To install the program manually: run ./install.sh";
 elog "Чтобы скомпилировать алгоритмы вручную, запустите:  ./install.sh";
 
 src_compile() {
+  chmod +x ./calendar.sh  	
   chmod +x ./install.sh
   ./install.sh
 }
 src_install() {
   into /usr/local/
+  dobin calendar.sh
   dobin calendar.comb
 }
