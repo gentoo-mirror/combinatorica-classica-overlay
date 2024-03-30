@@ -24,5 +24,5 @@ src_compile() {
 }
 src_install() {
   into /usr/local/
-  dobin
+  dobin calendar.comb
 }
