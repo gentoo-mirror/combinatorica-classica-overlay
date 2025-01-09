@@ -33,11 +33,8 @@ ivangavr777@gmail.com, dcc0@yandex.ru, mol0t@list.ru.
 MSK. Butovo. 2010-2025
  
  🔨
-
 ♖ ♗ ♘
- 
  🕯  
- 
  🕮
 
 
