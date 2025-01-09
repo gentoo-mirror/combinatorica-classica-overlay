@@ -11,11 +11,15 @@ http://i92625up.beget.tech/chat/index.php
 
 Упрощенная установка для систем на основе portage, команда терминала
 (Installation):
+
 eselect repository add combinatorica-classica-overlay git https://gitflic.ru/project/dcc0/combinatorica-classica-overlay.git; 
 
 emerge --sync combinatorica-classica-overlay; 
+
 emerge combinatorica-classica; 
+
 permutations.comb 123
+
 
 (Eng):
 Overlay "Combinatorica classica" contains 8 classical iterative 
