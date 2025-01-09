@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DESCRIPTION=Combinatorica classica - пакет классических переборных алгоритмов (итеративных), написанных на языке C(89). Читайте подробнее: man combinatorica-classica
+DESCRIPTION=Combinatorica classica - a set of combinatorial (iterative) classical algorithms, written in C (ANSI or C89). Read: man combinatorica-classica
 EAPI=7
 HOMEPAGE=https://gitflic.ru/project/dcc0/combinatorica-classica-overlay
 INHERIT=git-r3
@@ -9,4 +9,4 @@ LICENSE=PD
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=70aebab9265198359ca32fb792d9ccd7
+_md5_=f8e5df48e4314c1751da13057a514999
