@@ -9,13 +9,15 @@ dcc0@mail.ru. MSK. 2024
 http://comb.org.ru/chat/index.php
 http://i92625up.beget.tech/chat/index.php
 
-Упрощенная установка для систем на основе portage, команда терминала:
+Упрощенная установка для систем на основе portage, команда терминала
+(Installation):
 eselect repository add combinatorica-classica-overlay git https://gitflic.ru/project/dcc0/combinatorica-classica-overlay.git; 
 
 emerge --sync combinatorica-classica-overlay; 
+emerge combinatorica-classica; 
+permutations.comb 123
 
-emerge combinatorica-classica; permutations.comb 123
-
+(Eng):
 Overlay "Combinatorica classica" contains 8 classical iterative 
 combinatorial algorithms for Gentoo Linux 
 and Gentoo-based systems like Calculate Linux, 
