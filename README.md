@@ -1,4 +1,4 @@
-Оверлей проекта Combinatorica classica 
+Оверлей проекта Combinatorica classica   🔨♖♗♘🕯🕮
 - классических переборных алгоритмов -
  для систем на основе portage - Gentoo или Calculate Linux.
 Работает в тестовом режиме.
@@ -32,6 +32,6 @@ Author: Ivan Gavryuisn (aka dcc0, Black_Ru, MoL0T, iv777) dcc0@mail.ru,
 ivangavr777@gmail.com, dcc0@yandex.ru, mol0t@list.ru.
 MSK. Butovo. 2010-2025
 
- 🔨♖♗♘🕯🕮
+
 
 
