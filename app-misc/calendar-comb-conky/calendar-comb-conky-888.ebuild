@@ -15,12 +15,12 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_compile() {
-  chmod +x ./calendar_conky.sh
-  chmod +x ./install.sh
-  ./install.sh
+  chmod +x ./calendar_conky.sh
+  chmod +x ./install.sh
+  ./install.sh
 }
 src_install() {
-  doman *.8
+  doman *.8
   into /usr/local/
   dobin calendar_conky.sh
   dobin calendar_conky.comb
