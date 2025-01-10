@@ -19,9 +19,10 @@ src_compile() {
   chmod +x ./install.sh
   ./install.sh
 }
-src_install() {
+
+src_install () {
   doman *.8
-  into /usr/local/
-  dobin calendar_conky.sh
-  dobin calendar_conky.comb
+  into /usr/local/
+  dobin calendar_conky.sh
+  dobin calendar_conky.comb
 }
