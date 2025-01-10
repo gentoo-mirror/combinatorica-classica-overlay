@@ -1,6 +1,6 @@
 #This is a Gentoo ebuild to merge it (if you like emerge command)
 EAPI=7
-DESCRIPTION="Test for ip and webite availability, using ping and curl"
+DESCRIPTION="Test for ip and website availability, using ping and curl"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/test_ip_web.git"
