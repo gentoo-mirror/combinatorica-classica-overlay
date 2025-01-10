@@ -1,3 +1,4 @@
 app-misc/calendar-comb 888: Colored calendar (wrap) for terminal
 app-misc/calendar-comb-conky 888: Calendar for Conky (vertical colored weekends)
 app-misc/combinatorica-classica 999: Combinatorica classica - a set of combinatorial (iterative) classical algorithms, written in C (ANSI or C89). Read: man combinatorica-classica
+app-misc/test_ip_web 999: Test for ip and webite availability, using ping and curl
