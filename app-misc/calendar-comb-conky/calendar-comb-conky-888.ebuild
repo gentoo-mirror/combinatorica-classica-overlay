@@ -14,7 +14,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_compile() {
+src_compile () {
   chmod +x ./calendar_conky.sh
   chmod +x ./install.sh
   ./install.sh
@@ -26,3 +26,4 @@ src_install () {
   dobin calendar_conky.sh
   dobin calendar_conky.comb
 }
+
