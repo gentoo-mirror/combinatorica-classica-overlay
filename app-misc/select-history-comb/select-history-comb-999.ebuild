@@ -1,6 +1,6 @@
 #This is a Gentoo ebuild to merge it (if you like emerge command)
 EAPI=7
-DESCRIPTION="Colored calendar (wrap) for terminal"
+DESCRIPTION="Select .bash_history and run by number"
 HOMEPAGE="https://gitflic.ru/project/dcc0/combinatorica-classica-overlay"
 inherit git-r3
 EGIT_REPO_URI="https://gitflic.ru/project/dcc0/select-history-comb.git"
